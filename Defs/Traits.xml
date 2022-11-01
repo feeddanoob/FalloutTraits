@@ -242,11 +242,11 @@
 			<label>iron stomach</label>
 			<description>[PAWN_nameDef] has an iron stomach. [PAWN_pronoun] can go without eating longer and it takes more to upset [PAWN_possessive] stomach.</description>
 			<statOffsets>
-				<HungerRateMultiplier>-0.3</HungerRateMultiplier>
 				<PainShockThreshold>+0.1</PainShockThreshold>
 				<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
 				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
 			</statOffsets>
+			<hungerRateFactor>0.8</hungerRateFactor>
 		</li>
 		</degreeDatas>
 		<conflictingTraits>
@@ -494,12 +494,12 @@
 			<statOffsets>
 				<MoveSpeed>+0.1</MoveSpeed>
 				<CarryingCapacity>+10</CarryingCapacity>
-				<HungerRateMultiplier>-0.1</HungerRateMultiplier>
 				<ForagedNutritionPerDay>+0.5</ForagedNutritionPerDay>
 			</statOffsets>
 			<skillGains>
 				<li><key>Social</key><value>1</value></li>
 			</skillGains>
+			<hungerRateFactor>0.95</hungerRateFactor>
 		</li>
 		<li>
 			<label>explorer</label>
@@ -508,12 +508,12 @@
 			<statOffsets>
 				<MoveSpeed>+0.15</MoveSpeed>
 				<CarryingCapacity>+25</CarryingCapacity>
-				<HungerRateMultiplier>-0.15</HungerRateMultiplier>
 				<ForagedNutritionPerDay>+0.75</ForagedNutritionPerDay>
 			</statOffsets>
 			<skillGains>
 				<li><key>Social</key><value>2</value></li>
 			</skillGains>
+			<hungerRateFactor>0.9</hungerRateFactor>
 		</li>
 		<li>
 			<label>adventurer</label>
@@ -522,12 +522,12 @@
 			<statOffsets>
 				<MoveSpeed>+0.2</MoveSpeed>
 				<CarryingCapacity>+50</CarryingCapacity>
-				<HungerRateMultiplier>-0.2</HungerRateMultiplier>
 				<ForagedNutritionPerDay>+1</ForagedNutritionPerDay>
 			</statOffsets>
 			<skillGains>
 				<li><key>Social</key><value>3</value></li>
 			</skillGains>
+			<hungerRateFactor>0.85</hungerRateFactor>
 		</li>
 		</degreeDatas>
 		<requiredWorkTags>
@@ -1302,11 +1302,11 @@
 		<label>lead belly</label>
 		<description>[PAWN_nameDef] has a lead belly. [PAWN_possessive] belly can go much longer without food and [PAWN_pronoun] is more resistant to toxic radiation.</description>
 		<statOffsets>
-			<HungerRateMultiplier>-0.3</HungerRateMultiplier>
 			<ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
 			<ToxicResistance>0.2</ToxicResistance>
 			<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
 		</statOffsets>
+		<hungerRateFactor>0.75</hungerRateFactor>
 		</li>
 		</degreeDatas>
 		<requiredWorkTypes>
