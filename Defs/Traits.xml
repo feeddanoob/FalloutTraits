@@ -924,7 +924,7 @@
 			<description>[PAWN_nameDef]'s body has built up a resistance to the negative effects of toxic fallout.</description>
 			<degree>1</degree>
 			<statFactors>
-				<ToxicSensitivity>0.7</ToxicSensitivity>
+				<ToxicEnvironmentResistance>0.3</ToxicEnvironmentResistance>
 			</statFactors>
 			<statOffsets>
 				<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
@@ -935,7 +935,7 @@
 			<description>[PAWN_nameDef]'s body has built up a tolerance to the negative effects of toxic fallout.</description>
 			<degree>2</degree>
 			<statFactors>
-				<ToxicSensitivity>0.4</ToxicSensitivity>
+				<ToxicEnvironmentResistance>0.6</ToxicEnvironmentResistance>
 			</statFactors>
 			<statOffsets>
 				<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
@@ -1303,7 +1303,8 @@
 		<description>[PAWN_nameDef] has a lead belly. [PAWN_possessive] belly can go much longer without food and [PAWN_pronoun] is more resistant to toxic radiation.</description>
 		<statOffsets>
 			<HungerRateMultiplier>-0.3</HungerRateMultiplier>
-			<ToxicSensitivity>-0.2</ToxicSensitivity>
+			<ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
+			<ToxicResistance>0.2</ToxicResistance>
 			<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
 		</statOffsets>
 		</li>
@@ -1714,7 +1715,8 @@
 			<label>ghoulish</label>
 			<description>[PAWN_nameDef] is still human, mostly. [PAWN_pronoun] is immune to the effects of toxic fallout and much harder to kill but [PAWN_possessive] ghoulish appearance makes interacting with others difficult.</description>
 			<statFactors>
-				<ToxicSensitivity>0</ToxicSensitivity>
+				<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+				<ToxicResistance>1</ToxicResistance>
 			</statFactors>
 			<statOffsets>
 				<IncomingDamageFactor>-0.25</IncomingDamageFactor>
